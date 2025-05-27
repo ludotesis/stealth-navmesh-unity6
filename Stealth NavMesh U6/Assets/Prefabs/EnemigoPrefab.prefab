@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8187722919252755386
+--- !u!1001 &5560011944060303264
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,10 +11,10 @@ PrefabInstance:
     - target: {fileID: 2280575428272285346, guid: 337da4cd19180fd4a8e4090e26401062, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 56dbeb0c6fd98494b952a7a6a2025595, type: 2}
+      objectReference: {fileID: 2100000, guid: 5613266ddde4e5a4da91009c0583d8bd, type: 2}
     - target: {fileID: 4879681271728790365, guid: 337da4cd19180fd4a8e4090e26401062, type: 3}
       propertyPath: m_Name
-      value: JugadorPrefab
+      value: EnemigoPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 7416355722658331870, guid: 337da4cd19180fd4a8e4090e26401062, type: 3}
       propertyPath: m_LocalPosition.x
@@ -62,22 +62,23 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4879681271728790365, guid: 337da4cd19180fd4a8e4090e26401062, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4997580969302121680}
+      addedObject: {fileID: 8961868102993318148}
   m_SourcePrefab: {fileID: 100100000, guid: 337da4cd19180fd4a8e4090e26401062, type: 3}
---- !u!1 &3609844962229213415 stripped
+--- !u!1 &1049687417178680573 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4879681271728790365, guid: 337da4cd19180fd4a8e4090e26401062, type: 3}
-  m_PrefabInstance: {fileID: 8187722919252755386}
+  m_PrefabInstance: {fileID: 5560011944060303264}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4997580969302121680
+--- !u!114 &8961868102993318148
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3609844962229213415}
+  m_GameObject: {fileID: 1049687417178680573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9472e73a59274b9b8da79d72004bd8b, type: 3}
+  m_Script: {fileID: 11500000, guid: dd76b8ee2dbcf4be6998e917c65cd6ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Range: 100
