@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8961868102993318148, guid: db56f010ad46ea9479a514adfdf4ceee, type: 3}
       propertyPath: m_Range
-      value: 12
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -497,15 +497,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 101028399131525760, guid: 400f3413e8ee2064cbef849c2db20ccd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.7137794
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 101028399131525760, guid: 400f3413e8ee2064cbef849c2db20ccd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.088549
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 101028399131525760, guid: 400f3413e8ee2064cbef849c2db20ccd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.293438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 101028399131525760, guid: 400f3413e8ee2064cbef849c2db20ccd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -539,6 +539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mapa
       objectReference: {fileID: 0}
+    - target: {fileID: 6575247104678996682, guid: 400f3413e8ee2064cbef849c2db20ccd, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: de82ec7b42430c74ea5c4ba0f50911c6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
